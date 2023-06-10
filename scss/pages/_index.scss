@@ -1,0 +1,74 @@
+.contenido-nosotros{
+    text-align: center;
+}
+
+.btn-wha{
+    position: fixed;
+    right:50px;
+    bottom: 10px;
+}
+.icono-whasapp{
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width:400px){
+    h1{
+        font-size: 30px;
+    }
+    .carrusel{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        gap: 3px;
+    }
+    .elemento{
+        flex: 1 0 auto;
+        margin: 0 0;
+        width: 400px;
+        height: 400px;
+    }
+    .contenido-nosotros{
+        font-size: 15px;
+    }
+}
+@media (min-width:768){
+    h1{
+        font-size: 40px;
+    }
+    .carrusel{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        gap: 3px;
+    }
+    .elemento{
+        flex: 1 0 auto;
+        margin: 0 0;
+        width: 380px;
+        height: 380px;
+    }
+    .contenido-nosotros{
+        font-size: 20px;
+    }
+}
+@media (min-width:1024px){
+    h1{
+        font-size: 60px;
+    }
+    .carrusel{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: visible;
+        gap: 5px;
+    }
+    .elemento{
+        flex: 1 0 auto;
+        margin: 0 0;
+        width: 250px;
+        height: 250px;
+    }
+    .contenido-nosotros{
+        font-size: 25px;
+    }
+}

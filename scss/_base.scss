@@ -1,0 +1,28 @@
+$color-gris:rgb(226, 223, 223);
+$color-gris-oscuro: rgb(172, 166, 166);
+$color-fucsia:deeppink;
+$color-blanco: white;
+
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: $color-gris;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+a{
+    text-decoration: none;
+ }
+hr{
+    height: 2px;
+}
+
+
+h1{
+    color: $color-blanco;
+    background-color: $color-gris-oscuro;
+}
+h2{
+    color: $color-fucsia;
+}

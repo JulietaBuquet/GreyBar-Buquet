@@ -1,0 +1,121 @@
+.nombre-marca{
+    color: $color-blanco;
+    font-weight: bold;
+    text-shadow: 0 0 30px $color-fucsia;
+}
+.frase-marca{
+    color: $color-fucsia
+}
+.nav-menu{
+    background-color: $color-fucsia;
+    list-style: none;
+}
+.menu-icono{
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
+.menu-icono, #check{
+    display: none;
+}
+
+@media (max-width:400px){
+    .nombre-marca{
+        font-size: 60px;
+        text-align: left;
+    }
+    .frase-marca{
+        font-size: 20px;
+        text-align: left;
+        position: absolute;
+        top: 100px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .menu-icono{
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+    .nav-menu ul{
+        display: block;
+        position: fixed;
+        top: 70px;
+        left: -110%;
+        width: 100%;
+        height: 35vh;
+        right: 0;
+        & li{
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+    }
+    #check:checked~ul{
+        left: 0;
+    }
+
+}
+@media (max-width:768px){
+    .nombre-marca{
+        font-size: 60px;
+        text-align: left;
+    }
+    .frase-marca{
+        font-size: 20px;
+        text-align: left;
+        position: absolute;
+        top: 100px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    .menu-icono{
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+    }
+    .nav-menu ul{
+        display: block;
+        position: fixed;
+        top: 70px;
+        left: -110%;
+        width: 100%;
+        height: 35vh;
+        right: 0;
+        & li{
+            padding: 1rem;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+    }
+    #check:checked~ul{
+        left: 0;
+    }
+    
+    
+}
+@media (min-width:1024px){
+    .nombre-marca{
+        font-size: 80px;
+        text-align: center;
+    }
+    .frase-marca{
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        bottom: 80px;
+        
+    }
+    .nav-menu{
+        display: flex;
+        align-items:center;
+        justify-content: space-evenly;
+        gap: 50px;
+    }
+}

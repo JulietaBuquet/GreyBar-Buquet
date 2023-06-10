@@ -1,0 +1,116 @@
+.enviar{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        rgb(239, 206, 224), rgb(232, 45, 145), rgb(211, 0, 112)
+    );
+    cursor: pointer;
+    border-radius: 8px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    
+    &:hover {
+        background: none;
+    }
+    
+}
+@media (max-width:400px){
+    h1{
+        font-size: 30px;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        margin: 0 auto;
+        box-shadow: 0 0 15px $color-fucsia;
+    }
+    .caja{
+        background-color:  rgb(226, 223, 223);
+        text-align: center;
+        line-height: 60px ;
+    }
+    .n1{
+        grid-column: 1/2;
+    }
+    .n2{
+        grid-column: 1/2;
+    }
+    .n3{
+        grid-column: 1/2;
+    }
+    .n4{
+        grid-column: 1/2;
+    }
+    .n5{
+        grid-column: 1/2;
+    }
+}
+@media (min-width:768px){
+    h1{
+        font-size: 40px;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto;
+        margin: 0 auto;
+        box-shadow: 0 0 15px $color-fucsia;
+    }
+    .caja{
+        background-color:  rgb(226, 223, 223);
+        text-align: center;
+        line-height: 60px ;
+    }
+    .n1{
+        grid-column: 1/2;
+    }
+    .n2{
+        grid-column: 2/3;
+    }
+    .n3{
+        grid-column: 1/3;
+    }
+    .n4{
+        grid-column: 1/3;
+    }
+    .n5{
+        grid-column: 1/3;
+    }
+}
+@media (min-width:1024px){
+    h1{
+        font-size: 60px;
+    }
+    .contenedor{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        width: 80%;
+        margin: 0 auto;
+        box-shadow: 0 0 15px $color-fucsia;
+    }
+    .caja{
+        background-color:  rgb(226, 223, 223);
+        text-align: center;
+        line-height: 100px ;
+    }
+    .n1{
+        grid-column: 1/2;
+    }
+    .n2{
+        grid-column: 2/3;
+    }
+    .n3{
+        grid-column: 3/4;
+    }
+    .n4{
+        grid-column: 1/4;
+    }
+    .n5{
+        grid-column: 1/4;
+    }
+}

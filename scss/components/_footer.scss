@@ -1,0 +1,39 @@
+@media (max-width:400px){
+    .datos-footer{
+        text-align: center;
+        font-size: small;
+    }
+    .ubicacion-mapa{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media (min-width:768px){
+    .datos-footer{
+        font-size: medium;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .contenido-footer{
+        font-size: small;
+    }
+    .ubicacion-mapa{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (min-width:1024px){
+    .datos-footer{
+        font-size: normal;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .contenido-footer{
+        font-size: small;
+    }
+    .ubicacion-mapa{
+        width: 150px;
+        height: 100px;
+    }
+}
