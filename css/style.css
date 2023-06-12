@@ -50,7 +50,7 @@ h2 {
   display: none;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 768px) {
   .nombre-marca {
     font-size: 60px;
     text-align: left;
@@ -89,7 +89,7 @@ h2 {
     left: 0;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .nombre-marca {
     font-size: 60px;
     text-align: left;
@@ -137,7 +137,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     position: relative;
-    bottom: 80px;
+    bottom: 70px;
   }
   .nav-menu {
     display: flex;
@@ -146,7 +146,7 @@ h2 {
     gap: 50px;
   }
 }
-@media (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 768px) {
   .datos-footer {
     text-align: center;
     font-size: small;
@@ -156,7 +156,7 @@ h2 {
     height: 100px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .datos-footer {
     font-size: medium;
     display: flex;
@@ -199,7 +199,7 @@ h2 {
   height: 50px;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 768px) {
   h1 {
     font-size: 30px;
   }
@@ -219,7 +219,7 @@ h2 {
     font-size: 15px;
   }
 }
-@media (min-width: 768) {
+@media (min-width: 768px) and (max-width: 1024px) {
   h1 {
     font-size: 40px;
   }
@@ -284,7 +284,7 @@ li p {
   height: 40px;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 768px) {
   h1 {
     font-size: 40px;
   }
@@ -304,7 +304,7 @@ li p {
     display: block;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   h1 {
     font-size: 40px;
   }
@@ -371,7 +371,7 @@ li p {
   height: 40px;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 768px) {
   h1 {
     font-size: 30px;
   }
@@ -391,7 +391,7 @@ li p {
     display: block;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   h1 {
     font-size: 40px;
   }
@@ -448,7 +448,7 @@ li p {
   background: none;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 768px) {
   h1 {
     font-size: 30px;
   }
@@ -486,7 +486,7 @@ li p {
     grid-column: 1/2;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   h1 {
     font-size: 40px;
   }
@@ -578,7 +578,7 @@ li p {
   background: none;
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 768px) {
   h1 {
     font-size: 30px;
   }
@@ -610,7 +610,7 @@ li p {
     grid-column: 1/2;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   h1 {
     font-size: 40px;
   }
